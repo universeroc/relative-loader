@@ -1,4 +1,5 @@
 var path = require("path");
+var os = require("os");
 
 module.exports = function(content) {
   const defaultConfig = {
@@ -12,6 +13,10 @@ module.exports = function(content) {
 
   if (!config.relativePath)
     throw new Error("relativePath should not be defined!")
+
+  if (os.platform() === 'win32') {
+    config.relativePath = config.relativePath.replace(/\\/g, '\\\\\\\\')
+  }
 
   let filePath = config.relativePath + fileName
   return (
