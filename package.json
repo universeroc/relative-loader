@@ -1,0 +1,26 @@
+{
+  "author": "universeroc <universeroc@gmail.com>",
+  "dependencies": {},
+  "description": "Loader for Node native extensions",
+  "keywords": [
+    "electron",
+    "loader",
+    "native",
+    "node",
+    "relative",
+    "webpack"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "relative-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universeroc/node-relative-loader.git"
+  },
+  "scripts": {},
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/universeroc/node-relative-loader/issues"
+  },
+  "homepage": "https://github.com/universeroc/node-relative-loader#readme"
+}
