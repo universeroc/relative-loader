@@ -8,10 +8,10 @@ Add the package to the development dependencies:
 
 ```bash
 # using npm:
-$ npm install node-relative-loader --save-dev
+$ npm install relative-loader --save-dev
 
 # using yarn:
-$ yarn add --dev node-relative-loader
+$ yarn add --dev relative-loader
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ module: {
   rules: [
     {
       test: /\.node$/,
-      loader: "node-relative-loader"
+      loader: "relative-loader"
     }
   ];
 }
@@ -40,7 +40,7 @@ module: {
   rules: [
     {
       test: /\.node$/,
-      loader: "node-relative-loader",
+      loader: "relative-loader",
       options: {
         relativePath: "../../"
       }
