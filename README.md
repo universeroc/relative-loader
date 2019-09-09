@@ -46,7 +46,7 @@ module: {
       test: /\.node$/,
       loader: "relative-loader",
       options: {
-        relativePath: "../../"
+        relativePath: "/../../"
       }
     }
   ];
@@ -55,3 +55,5 @@ module: {
 ### `relativePath`
 
 It allows to set an relative paths to node addon files.
+
+*Attention* Please make sure the `relativePath` starts and ends with `slash` or `backslash` (*MAKE SURE* Windows `\\\\` not `\\`)
