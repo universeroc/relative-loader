@@ -15,12 +15,12 @@
   "name": "relative-loader",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/universeroc/node-relative-loader.git"
+    "url": "git+https://github.com/universeroc/relative-loader.git"
   },
   "scripts": {},
   "version": "1.0.5",
   "bugs": {
-    "url": "https://github.com/universeroc/node-relative-loader/issues"
+    "url": "https://github.com/universeroc/relative-loader/issues"
   },
-  "homepage": "https://github.com/universeroc/node-relative-loader#readme"
+  "homepage": "https://github.com/universeroc/relative-loader#readme"
 }
